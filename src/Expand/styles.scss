@@ -3,17 +3,25 @@
 @tailwind utilities;
 
 * {
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-family: sans-serif;
+  @apply p-0
+  m-0
+  box-border;
 }
 
 .box {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 7px;
-  background-color: #f7f7f7;
+  @apply p-10
+  bg-hard-white
+  border
+  border-[#ccc]
+  rounded-[5px];
+}
+
+.expandable-container {
+  @apply max-w-700
+    mx-auto
+    mb-50
+    px-15;
+  &--text {
+    @apply mb-15;
+  }
 }

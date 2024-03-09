@@ -26,7 +26,7 @@ export default function TipCalculator() {
         How did you like the service?
       </SelectPercentage>
       <SelectPercentage percentage={percentage2} onSelect={setPercentage2}>
-        How did your friend
+        How did your friend like it?
       </SelectPercentage>
       {bill > 0 && (
         <>

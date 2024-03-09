@@ -3,6 +3,7 @@ export default function BillInput({ bill, onSetBill }) {
     <div className="spacing-elements">
       <label>How much was the bill</label>
       <input
+        className="pl-5"
         type="text"
         placeholder="Bill value"
         value={bill}

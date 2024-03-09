@@ -1,0 +1,32 @@
+.hero {
+  @apply bg-hard-white overflow-hidden relative text-center;
+
+  @apply h-[300px]
+    text-[#6495ED]
+    md:mb-80
+    mb-40
+    px-20
+    flex
+    items-center
+    justify-start;
+
+  &--container-typing {
+    @apply max-w-[736px]
+        mx-auto
+        text-25
+        md:text-[50px]
+        font-bold;
+  }
+
+  &--neon-text {
+    @apply font-roboto;
+    text-shadow: 0 0 7px rgb(0, 242, 255), 0 0 21px;
+  }
+
+  &--arrow-down {
+    @apply absolute
+        left-1/2
+        -translate-x-1/2
+        bottom-20;
+  }
+}
