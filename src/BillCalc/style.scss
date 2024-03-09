@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.tip-calculator {
+  @apply max-w-500
+  mx-auto
+  mb-40
+  px-15
+  text-center;
+
+  &--title {
+    @apply text-30 font-bold mb-20 leading-tight font-roboto;
+  }
+}
+
+.spacing-elements {
+  @apply flex justify-center
+  flex-wrap
+  gap-15
+  mb-15;
+}
+
+input,
+select {
+  @apply border border-gray-300;
+}
+
+.btn {
+  @apply rounded-[10px];
+
+  &--reset {
+    @apply bg-turquoise-300 font-bold px-10 py-5 ease-in-out duration-300;
+
+    &:hover {
+      @apply bg-turquoise;
+    }
+  }
+}
