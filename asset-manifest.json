@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mini-projects.github.io/static/css/main.287c93ec.css",
+    "main.js": "/mini-projects.github.io/static/js/main.f254ff1d.js",
+    "index.html": "/mini-projects.github.io/index.html",
+    "static/media/icon-arrow-down.svg": "/mini-projects.github.io/static/media/icon-arrow-down.1edfab86f389055c97b80ec14e52f85c.svg",
+    "main.287c93ec.css.map": "/mini-projects.github.io/static/css/main.287c93ec.css.map",
+    "main.f254ff1d.js.map": "/mini-projects.github.io/static/js/main.f254ff1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.287c93ec.css",
+    "static/js/main.f254ff1d.js"
+  ]
+}
