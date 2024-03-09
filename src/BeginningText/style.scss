@@ -1,8 +1,8 @@
 .hero {
   @apply bg-hard-white overflow-hidden relative text-center;
 
-  @apply h-[300px]
-    text-[#6495ED]
+  @apply h-300
+    text-blue-100
     md:mb-80
     mb-40
     px-20
@@ -11,8 +11,8 @@
     justify-start;
 
   &--container-typing {
-    @apply max-w-[736px]
-        md:text-[50px]
+    @apply max-w-750
+        md:text-50
         mx-auto
         text-25
         font-bold;

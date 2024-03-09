@@ -62,10 +62,9 @@
 
 /* OPEN STATE */
 .open {
-  @apply border-t-[#087f5b]
-  border-t-4;
+  @apply border-t-4 border-t-green-300;
   .accordion--title,
   .accordion--number {
-    @apply text-[#087f5b];
+    @apply text-green-300;
   }
 }

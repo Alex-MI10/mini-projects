@@ -16,6 +16,7 @@ module.exports = {
         100: "#F6F4F0",
         200: "#ced4da",
         300: "#5B5B5B",
+        400: "#ccc",
       },
       turquoise: {
         DEFAULT: "#00D1D2",
@@ -27,6 +28,7 @@ module.exports = {
         DEFAULT: "#287BAF",
         dark: "#202F5E",
         light: "#369ED1",
+        100: "#6495ED",
       },
       yellow: {
         100: "#EABB2B",
@@ -43,6 +45,7 @@ module.exports = {
       green: {
         100: "#43A69B",
         200: "#1D9684",
+        300: "#087f5b",
       },
     },
     spacing: {
@@ -100,6 +103,7 @@ module.exports = {
       180: "180px",
       190: "190px",
       200: "200px",
+      300: "300px",
       half: "50%",
       full: "100%",
     },
@@ -126,6 +130,7 @@ module.exports = {
       28: "28px",
       29: "29px",
       30: "30px",
+      50: "50px",
     },
     extend: {
       maxWidth: (theme) => ({
