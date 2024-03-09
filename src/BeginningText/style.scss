@@ -12,9 +12,9 @@
 
   &--container-typing {
     @apply max-w-[736px]
+        md:text-[50px]
         mx-auto
         text-25
-        md:text-[50px]
         font-bold;
   }
 

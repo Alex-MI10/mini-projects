@@ -9,11 +9,11 @@
 }
 
 .box {
-  @apply p-10
-  bg-hard-white
-  border
+  @apply rounded-[5px]
   border-[#ccc]
-  rounded-[5px];
+  p-10
+  bg-hard-white
+  border;
 }
 
 .expandable-container {
