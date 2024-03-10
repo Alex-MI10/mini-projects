@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
+import { gsap } from "gsap";
 import "./styles.scss";
 
 export default function TextExpand() {
   return (
     <div className="expandable-container">
+      <div className="expandable-container--title">Expandable Texts</div>
       <TextExpander className="expandable-container--text">
         Space travel is the ultimate adventure! Imagine soaring past the stars
         and exploring new worlds. It's the stuff of dreams and science fiction,

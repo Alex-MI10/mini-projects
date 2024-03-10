@@ -2,7 +2,7 @@
   @apply bg-hard-white overflow-hidden relative text-center;
 
   @apply h-300
-    text-blue-100
+    text-black
     md:mb-80
     mb-40
     px-20
@@ -20,7 +20,6 @@
 
   &--neon-text {
     @apply font-roboto;
-    text-shadow: 0 0 7px rgb(0, 242, 255), 0 0 21px;
   }
 
   &--arrow-down {

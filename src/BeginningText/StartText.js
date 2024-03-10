@@ -12,7 +12,7 @@ export default function Hero() {
       "Hi!",
       "I'm a junior developer.",
       "This is my website!",
-      "Here You will see a bunch of components that I made.",
+      "Here, you will see a bunch of components that I made.",
     ];
     const cursor = gsap.to(".cursor", {
       opacity: 0,

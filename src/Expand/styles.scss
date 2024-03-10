@@ -21,6 +21,11 @@
     mx-auto
     mb-50
     px-15;
+
+  &--title {
+    @apply text-30 font-bold font-roboto text-center mb-20;
+  }
+
   &--text {
     @apply mb-15;
   }
