@@ -1,5 +1,4 @@
-import { useState, useEffect, useRef } from "react";
-import { gsap } from "gsap";
+import { useState } from "react";
 import "./styles.scss";
 
 export default function TextExpand() {
