@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mini-projects.github.io/static/css/main.3443f1d4.css",
-    "main.js": "/mini-projects.github.io/static/js/main.0edbc994.js",
-    "index.html": "/mini-projects.github.io/index.html",
-    "static/media/icon-arrow-down.svg": "/mini-projects.github.io/static/media/icon-arrow-down.1edfab86f389055c97b80ec14e52f85c.svg",
-    "main.3443f1d4.css.map": "/mini-projects.github.io/static/css/main.3443f1d4.css.map",
-    "main.0edbc994.js.map": "/mini-projects.github.io/static/js/main.0edbc994.js.map"
+    "main.css": "/mini-projects/static/css/main.3443f1d4.css",
+    "main.js": "/mini-projects/static/js/main.040424b1.js",
+    "index.html": "/mini-projects/index.html",
+    "static/media/icon-arrow-down.svg": "/mini-projects/static/media/icon-arrow-down.1edfab86f389055c97b80ec14e52f85c.svg",
+    "main.3443f1d4.css.map": "/mini-projects/static/css/main.3443f1d4.css.map",
+    "main.040424b1.js.map": "/mini-projects/static/js/main.040424b1.js.map"
   },
   "entrypoints": [
     "static/css/main.3443f1d4.css",
-    "static/js/main.0edbc994.js"
+    "static/js/main.040424b1.js"
   ]
 }
