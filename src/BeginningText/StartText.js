@@ -13,6 +13,7 @@ export default function Hero() {
       "I'm a junior developer.",
       "This is my website!",
       "Here, you will see a bunch of components that I made.",
+      "Enjoy!",
     ];
     const cursor = gsap.to(".cursor", {
       opacity: 0,
