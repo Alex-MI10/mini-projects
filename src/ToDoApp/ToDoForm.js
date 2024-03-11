@@ -11,15 +11,15 @@ export default function ToDoForm({ addToDo }) {
   }
 
   return (
-    <form className="todo-wrapper--form" onSubmit={handleSubmit}>
+    <form className="todo-wrapper__form" onSubmit={handleSubmit}>
       <input
         type="text"
-        className="todo-wrapper--input"
+        className="todo-wrapper__input"
         placeholder="What is the task today?"
         value={value}
         onChange={(e) => setValue(e.target.value)}
       />
-      <button type="submit" className="todo-wrapper--btn" disabled={!value}>
+      <button type="submit" className="todo-wrapper__btn" disabled={!value}>
         Add Task
       </button>
     </form>

@@ -20,7 +20,7 @@ export default function TipCalculator() {
 
   return (
     <div className="tip-calculator">
-      <div className="tip-calculator--title">Tip Calculator</div>
+      <div className="tip-calculator__title">Tip Calculator</div>
       <BillInput bill={bill} onSetBill={setBill} />
       <SelectPercentage percentage={percentage1} onSelect={setPercentage1}>
         How did you like the service?

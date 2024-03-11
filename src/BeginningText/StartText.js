@@ -31,7 +31,7 @@ export default function Hero() {
     });
 
     const tl = gsap.timeline();
-    tl.to(".hero--arrow-down", {
+    tl.to(".hero__arrow-down", {
       y: 10,
       duration: 0.5,
       yoyo: true,
@@ -48,11 +48,11 @@ export default function Hero() {
 
   return (
     <section className="hero">
-      <div className="hero--container-typing">
-        <span className="text hero--neon-text"></span>
+      <div className="hero__container-typing">
+        <span className="text hero__neon-text"></span>
         <span className="cursor">|</span>
       </div>
-      <div className="hero--arrow-down">
+      <div className="hero__arrow-down">
         <img className="w-30 h-20" src={arrowDownIcon} alt="" />
       </div>
     </section>

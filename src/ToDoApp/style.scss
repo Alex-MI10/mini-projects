@@ -7,11 +7,11 @@
     text-30 leading-tight 
     text-center;
   }
-  &--form {
+  &__form {
     @apply flex justify-center gap-5 max-w-full
     mb-20;
   }
-  &--input {
+  &__input {
     @apply outline-0
     bg-none
     border
@@ -24,16 +24,22 @@
     }
   }
 
-  &--btn {
+  &__btn {
     @apply bg-blue-100
     text-white
     font-bold
     border-none
     p-5
-    cursor-pointer;
+    cursor-pointer
+    ease-in-out
+    duration-300;
+
+    &:hover {
+      @apply bg-blue;
+    }
   }
 
-  &--todo {
+  &__todo {
     @apply max-w-400
     w-full
     mx-auto
@@ -47,8 +53,8 @@
     mb-15;
   }
 
-  &--edit-icon,
-  &--delete-icon {
+  &__edit-icon,
+  &__delete-icon {
     @apply cursor-pointer;
   }
 

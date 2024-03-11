@@ -10,7 +10,7 @@
     items-center
     justify-start;
 
-  &--container-typing {
+  &__container-typing {
     @apply max-w-750
         md:text-50
         mx-auto
@@ -18,11 +18,11 @@
         font-bold;
   }
 
-  &--neon-text {
+  &__neon-text {
     @apply font-roboto;
   }
 
-  &--arrow-down {
+  &__arrow-down {
     @apply absolute
         left-1/2
         -translate-x-1/2

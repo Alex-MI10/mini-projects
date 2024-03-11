@@ -48,19 +48,19 @@ function AccordionItem({ num, title, currentOpen, onOpen, children }) {
 
   return (
     <div
-      className={`accordion--item ${isOpen ? "open" : ""}`}
+      className={`accordion__item ${isOpen ? "open" : ""}`}
       onClick={handleToggle}
     >
-      <div className="accordion--elements">
-        <div className="accordion--elements__child">
-          <p className="accordion--number">
+      <div className="accordion__elements">
+        <div className="accordion__elements--child">
+          <p className="accordion__number">
             {num < 9 ? `0${num + 1}` : num + 1}
           </p>
-          <p className="accordion--title">{title}</p>
+          <p className="accordion__title">{title}</p>
         </div>
-        <span className="accordion--icon">{isOpen ? "-" : "+"}</span>
+        <span className="accordion__icon">{isOpen ? "-" : "+"}</span>
       </div>
-      <div className="accordion--content-box" ref={contentRef}>
+      <div className="accordion__content-box" ref={contentRef}>
         {children}
       </div>
     </div>

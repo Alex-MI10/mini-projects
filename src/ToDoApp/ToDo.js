@@ -5,7 +5,7 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 export default function ToDo({ task, toggleComplete, deleteToDo, editToDo }) {
   return (
-    <div className="todo-wrapper--todo">
+    <div className="todo-wrapper__todo">
       <p
         onClick={() => toggleComplete(task.id)}
         className={`${
@@ -18,12 +18,12 @@ export default function ToDo({ task, toggleComplete, deleteToDo, editToDo }) {
       </p>
       <div class="flex">
         <FontAwesomeIcon
-          className="todo-wrapper--edit-icon"
+          className="todo-wrapper__edit-icon"
           icon={faPenToSquare}
           onClick={() => editToDo(task.id)}
         />
         <FontAwesomeIcon
-          className="todo-wrapper--delete-icon ml-10"
+          className="todo-wrapper__delete-icon ml-10"
           icon={faTrash}
           onClick={() => deleteToDo(task.id)}
         />

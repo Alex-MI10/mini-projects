@@ -19,19 +19,19 @@
   px-15
   mb-50;
 
-  &--elements {
+  &__elements {
     @apply flex
     justify-between
     md:items-center
     gap-20;
 
-    &__child {
+    &--child {
       @apply flex
       gap-20;
     }
   }
 
-  &--item {
+  &__item {
     @apply max-w-650
       w-full
       mx-auto
@@ -42,21 +42,21 @@
       p-20;
   }
 
-  &--number {
+  &__number {
     @apply text-gray-300
       text-24;
   }
 
-  &--title,
-  &--number {
+  &__title,
+  &__number {
     @apply text-24;
   }
 
-  &--icon {
+  &__icon {
     @apply text-20;
   }
 
-  &--content-box {
+  &__content-box {
     @apply overflow-hidden;
   }
 }
@@ -64,8 +64,8 @@
 /* OPEN STATE */
 .open {
   @apply border-t-4 border-t-green-300;
-  .accordion--title,
-  .accordion--number {
+  .accordion__title,
+  .accordion__number {
     @apply text-green-300;
   }
 }

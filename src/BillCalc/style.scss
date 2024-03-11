@@ -9,7 +9,7 @@
   px-15
   text-center;
 
-  &--title {
+  &__title {
     @apply text-30 font-bold mb-20 leading-tight font-roboto;
   }
 }
@@ -30,7 +30,7 @@ select {
 .btn {
   @apply rounded-lg;
 
-  &--reset {
+  &__reset {
     @apply bg-turquoise-300 font-bold px-10 py-5 ease-in-out duration-300;
 
     &:hover {

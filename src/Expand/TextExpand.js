@@ -4,8 +4,8 @@ import "./styles.scss";
 export default function TextExpand() {
   return (
     <div className="expandable-container">
-      <div className="expandable-container--title">Expandable Texts</div>
-      <TextExpander className="expandable-container--text">
+      <div className="expandable-container__title">Expandable Texts</div>
+      <TextExpander className="expandable-container__text">
         Space travel is the ultimate adventure! Imagine soaring past the stars
         and exploring new worlds. It's the stuff of dreams and science fiction,
         but believe it or not, space travel is a real thing. Humans and robots
@@ -18,7 +18,7 @@ export default function TextExpand() {
         expandButtonText="Show text"
         collapseButtonText="Collapse text"
         buttonColor="#ff6622"
-        className="expandable-container--text"
+        className="expandable-container__text"
       >
         Space travel requires some seriously amazing technology and
         collaboration between countries, private companies, and international
@@ -27,7 +27,7 @@ export default function TextExpand() {
         foot on the moon or when rovers were sent to roam around on Mars.
       </TextExpander>
 
-      <TextExpander expanded={true} className="expandable-container--text box">
+      <TextExpander expanded={true} className="expandable-container__text box">
         Space missions have given us incredible insights into our universe and
         have inspired future generations to keep reaching for the stars. Space
         travel is a pretty cool thing to think about. Who knows what we'll
