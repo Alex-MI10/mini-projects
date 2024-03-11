@@ -1,0 +1,67 @@
+.todo-wrapper {
+  @apply max-w-700 md:mx-auto bg-blue-dark rounded-xl mb-50 p-20 mx-15;
+  h1 {
+    @apply text-white
+    font-roboto
+    mb-20
+    text-30 leading-tight 
+    text-center;
+  }
+  &--form {
+    @apply flex justify-center gap-5 max-w-full
+    mb-20;
+  }
+  &--input {
+    @apply outline-0
+    bg-none
+    border
+    border-blue
+    p-10
+    max-w-300;
+
+    &::placeholder {
+      @apply text-gray-500;
+    }
+  }
+
+  &--btn {
+    @apply bg-blue-100
+    text-white
+    font-bold
+    border-none
+    p-5
+    cursor-pointer;
+  }
+
+  &--todo {
+    @apply max-w-400
+    w-full
+    mx-auto
+    flex
+    justify-between
+    items-center
+    bg-turquoise-100
+    text-gray
+    p-10
+    rounded-xl
+    mb-15;
+  }
+
+  &--edit-icon,
+  &--delete-icon {
+    @apply cursor-pointer;
+  }
+
+  &--completed {
+    @apply line-through
+    cursor-pointer
+    w-full;
+  }
+
+  &--incompleted {
+    @apply text-gray
+    font-bold
+    cursor-pointer
+    w-full;
+  }
+}

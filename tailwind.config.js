@@ -17,6 +17,7 @@ module.exports = {
         200: "#ced4da",
         300: "#5B5B5B",
         400: "#ccc",
+        500: "ffffff4d",
       },
       turquoise: {
         DEFAULT: "#00D1D2",
@@ -101,7 +102,7 @@ module.exports = {
       170: "170px",
       175: "175px",
       180: "180px",
-      190: "190px",
+      195: "195px",
       200: "200px",
       300: "300px",
       half: "50%",

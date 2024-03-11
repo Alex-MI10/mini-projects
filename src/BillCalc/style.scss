@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  @apply p-0
-  m-0
-  box-border;
-}
-
-body {
-  font-family: sans-serif;
-}
-
 .tip-calculator {
   @apply max-w-450
   mx-auto
