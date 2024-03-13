@@ -6,7 +6,7 @@ export default function Accordion({ data }) {
   const [currentOpen, setCurrentOpen] = useState(null);
 
   return (
-    <div className="accordion">
+    <section className="accordion">
       {data.map((el, i) => (
         <AccordionItem
           currentOpen={currentOpen}
@@ -18,7 +18,7 @@ export default function Accordion({ data }) {
           {el.text}
         </AccordionItem>
       ))}
-    </div>
+    </section>
   );
 }
 function AccordionItem({ num, title, currentOpen, onOpen, children }) {

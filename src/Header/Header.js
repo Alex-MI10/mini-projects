@@ -1,11 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { gsap } from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
-import "./style.scss";
+import { useGSAP } from "@gsap/react";
 import arrowDownIcon from "./assets/icon-arrow-down.svg"; // Adjust the path to your arrow down icon
+import "./style.scss";
 
 export default function Hero() {
-  useEffect(() => {
+  useGSAP(() => {
     gsap.registerPlugin(TextPlugin);
 
     const words = [
@@ -37,14 +38,7 @@ export default function Hero() {
       yoyo: true,
       repeat: -1,
     });
-
-    return () => {
-      // Clean up on unmount
-      cursor.kill();
-      masterTL.kill();
-      tl.kill();
-    };
-  }, []);
+  });
 
   return (
     <section className="hero">

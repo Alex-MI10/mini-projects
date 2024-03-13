@@ -3,7 +3,7 @@ import "./styles.scss";
 
 export default function TextExpand() {
   return (
-    <div className="expandable-container">
+    <section className="expandable-container">
       <div className="expandable-container__title">Expandable Texts</div>
       <TextExpander className="expandable-container__text">
         Space travel is the ultimate adventure! Imagine soaring past the stars
@@ -33,7 +33,7 @@ export default function TextExpand() {
         travel is a pretty cool thing to think about. Who knows what we'll
         discover next!
       </TextExpander>
-    </div>
+    </section>
   );
 }
 

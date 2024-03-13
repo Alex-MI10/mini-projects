@@ -1,0 +1,17 @@
+.headline {
+  @apply max-w-1100 mx-auto flex flex-wrap md:flex-nowrap gap-15 justify-around mb-50 text-left px-20 items-center;
+
+  &__content {
+    @apply md:w-1/2 
+    w-full;
+
+    &--text {
+      @apply mb-20;
+    }
+  }
+}
+
+.anim-text-first {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  @apply text-30 md:text-40 font-bold;
+}

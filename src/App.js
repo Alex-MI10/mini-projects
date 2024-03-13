@@ -1,4 +1,5 @@
-import Header from "./BeginningText/StartText";
+import Header from "./Header/Header";
+import HeadLine from "./BegginingText/HeadlineAnim";
 import Accordion from "./Accordion/Accordion";
 import Data from "./Accordion/AccordionData";
 import TipCalculator from "./BillCalc/TipCalculator";
@@ -9,6 +10,7 @@ export default function App() {
   return (
     <div>
       <Header />
+      <HeadLine />
       <Accordion data={Data} />
       <TipCalculator />
       <TextExpand />

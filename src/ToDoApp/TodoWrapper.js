@@ -62,7 +62,7 @@ export default function ToDoWrapper() {
   }
 
   return (
-    <div className="todo-wrapper">
+    <section className="todo-wrapper">
       <h1>Let's do some tasks!</h1>
       <ToDoForm addToDo={AddToDo} />
       {toDos.map((todo, index) =>
@@ -78,6 +78,6 @@ export default function ToDoWrapper() {
           />
         )
       )}
-    </div>
+    </section>
   );
 }
