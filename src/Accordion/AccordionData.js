@@ -1,4 +1,4 @@
-const faqs = [
+const Faqs = [
   {
     title: "What is React?",
     text: "React.js is an open-source JavaScript library, crafted with precision by Facebook, that aims to simplify the intricate process of building interactive user interfaces.",
@@ -13,4 +13,4 @@ const faqs = [
   },
 ];
 
-export default faqs;
+export default Faqs;

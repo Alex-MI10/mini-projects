@@ -46,7 +46,7 @@ export default function Hero() {
         <div className="headline__content--text anim-text-first">
           It all started here...
         </div>
-        <div class="anim-text-second">
+        <div className="anim-text-second">
           When I decided to try my hand at coding, it felt like opening a door
           to a whole new universe. It was a journey of discovery, a journey that
           ignited my passion for crafting elegant solutions to complex problems.

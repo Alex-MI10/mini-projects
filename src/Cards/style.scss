@@ -1,0 +1,50 @@
+.tilt {
+  @apply max-w-800
+  mx-auto
+  flex
+  flex-wrap
+  lg:flex-nowrap
+  gap-30
+  justify-center
+  items-center
+  mb-50
+  px-20;
+
+  &__container {
+    @apply inline-block;
+    perspective: 1000px;
+  }
+
+  &__card {
+    @apply rounded-lg
+    w-300
+    h-400
+    bg-hard-white
+    overflow-hidden
+    relative
+    shadow-3xl;
+
+    &--bg {
+      @apply w-full
+      h-full
+      bg-cover
+      bg-center;
+      transform: translateZ(-25px);
+    }
+
+    &--info {
+      @apply absolute
+      bottom-20
+      left-20
+      text-white;
+
+      h2 {
+        @apply text-30 font-roboto leading-tight;
+      }
+
+      p {
+        @apply text-20;
+      }
+    }
+  }
+}

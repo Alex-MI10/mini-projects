@@ -16,7 +16,7 @@ export default function ToDo({ task, toggleComplete, deleteToDo, editToDo }) {
       >
         {task.task}
       </p>
-      <div class="flex">
+      <div className="flex">
         <FontAwesomeIcon
           className="todo-wrapper__edit-icon"
           icon={faPenToSquare}

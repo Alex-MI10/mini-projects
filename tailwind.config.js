@@ -105,6 +105,7 @@ module.exports = {
       195: "195px",
       200: "200px",
       300: "300px",
+      400: "400px",
       half: "50%",
       full: "100%",
     },
@@ -162,6 +163,10 @@ module.exports = {
       width: (theme) => ({
         ...theme("spacing"),
       }),
+
+      boxShadow: {
+        "3xl": "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
+      },
     },
   },
   plugins: [
