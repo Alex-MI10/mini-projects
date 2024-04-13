@@ -11,16 +11,13 @@
   px-20;
 
   &__container {
-    @apply inline-block;
-    perspective: 1000px;
+    @apply inline-block rounded-xl;
   }
 
   &__card {
-    @apply rounded-lg
-    w-300
+    @apply w-300
     h-400
     bg-hard-white
-    overflow-hidden
     relative
     shadow-3xl;
 
@@ -28,8 +25,8 @@
       @apply w-full
       h-full
       bg-cover
-      bg-center;
-      transform: translateZ(-25px);
+      bg-center
+      rounded-xl;
     }
 
     &--info {
