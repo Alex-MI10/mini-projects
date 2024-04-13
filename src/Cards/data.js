@@ -1,18 +1,21 @@
 const DataCards = [
   {
-    bg: require("./imgs/galaxy.jpg"),
+    bg: require("./imgs/infinity.jpg"),
     title: "Infinity",
-    content: "Content for card 1",
+    content:
+      "Exploring limitless loops, recursive functions, and unbounded data structures computationally.",
   },
   {
-    bg: "https://images.unsplash.com/photo-1708806016883-d9b03a689eba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8fA%3D%3D",
+    bg: require("./imgs/passion.jpg"),
     title: "Passion",
-    content: "Content for card 2",
+    content:
+      "Fueled by fervor, code becomes a canvas for boundless creativity.",
   },
   {
-    bg: "https://images.unsplash.com/photo-1708806016883-d9b03a689eba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8fA%3D%3D",
+    bg: require("./imgs/dedication.jpg"),
     title: "Dedication",
-    content: "Content for card 3",
+    content:
+      "With unwavering commitment, every line of code breathes persistence and excellence.",
   },
 ];
 
